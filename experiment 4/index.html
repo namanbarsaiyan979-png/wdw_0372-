@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form making</title>
+</head>
+<body>
+    <form action="submit.php" align="center" method="post">
+        <h2> Hotel Room Booking Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" 
+        placeholder="Enter your name">
+        <br><br>
+
+        <lable for="email">Email:</lable>
+        <input type="email" name="email">
+        <br><br>
+        <lable for="phone">Phone:</lable>
+        <input type="tel" name="phone">
+        <br><br>
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" name="checkin">
+        <br><br>
+        <lable for="checkout">Checkout:</lable>
+        <input type="date" name="checkout">
+        <br><br>    
+        <label for="roomtype">Room Type:</label>
+        <select name="roomtype">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+        </select>
+        <br><br>
+        <label for="guests">Number of Guests:</label>
+        <input type="number" name="guests">
+        <br><br>
+        <label for="requests">Special Requests:</label><br>
+        <textarea name="requests" rows="4" cols="50"></textarea> 
+        <br><br>   
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Form">
+
+
+
+    </form>
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
